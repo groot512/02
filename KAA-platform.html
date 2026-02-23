@@ -32,6 +32,7 @@
                         // 각 섹션별 고품질 배경 이미지 할당
                         'hero-pattern': "url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=2070&auto=format&fit=crop')", // 스포츠카/모빌리티
                         'network-pattern': "url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop')", // 글로벌/네트워크 야경
+                        'business-pattern': "url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop')", // 비즈니스/테크
                         'membership-pattern': "url('https://images.unsplash.com/photo-1617788138017-80ad40651399?q=80&w=2070&auto=format&fit=crop')", // 프리미엄 다크 텍스처
                         'app-pattern': "url('https://images.unsplash.com/photo-1551522435-a13afa10f103?q=80&w=2070&auto=format&fit=crop')", // 스마트폰/IT 플랫폼
                         'edu-pattern': "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2070&auto=format&fit=crop')", // 교육/미래지향적 환경
@@ -95,6 +96,7 @@
 
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#business" class="text-sm font-medium text-gray-300 hover:text-kaa-neon transition-colors drop-shadow-md">사업영역</a>
                     <a href="#membership" class="text-sm font-medium text-gray-300 hover:text-kaa-neon transition-colors drop-shadow-md">글로벌 멤버십</a>
                     <a href="#k-platform" class="text-sm font-medium text-gray-300 hover:text-kaa-neon transition-colors drop-shadow-md">K-플랫폼</a>
                     <a href="#education" class="text-sm font-medium text-gray-300 hover:text-kaa-neon transition-colors drop-shadow-md">인증 및 교육</a>
@@ -118,6 +120,7 @@
         <!-- Mobile Menu (Hidden by default) -->
         <div id="mobile-menu" class="hidden md:hidden bg-kaa-surface/95 backdrop-blur-xl border-t border-gray-800 absolute w-full">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#business" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800">사업영역</a>
                 <a href="#membership" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800">글로벌 멤버십</a>
                 <a href="#k-platform" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800">K-플랫폼 앱</a>
                 <a href="#education" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800">인증 및 교육 전문관</a>
@@ -242,6 +245,65 @@
                 <div class="h-28 bg-white/10 backdrop-blur-lg rounded-2xl flex items-center justify-center text-2xl font-black text-white border border-white/20 shadow-xl hover:bg-white/20 transition-all cursor-default">AIT</div>
                 <div class="h-28 bg-white/10 backdrop-blur-lg rounded-2xl flex items-center justify-center text-2xl font-black text-white border border-white/20 shadow-xl hover:bg-white/20 transition-all cursor-default text-center leading-tight">AAA<br><span class="text-sm font-medium text-gray-300">(미국)</span></div>
                 <div class="h-28 bg-white/10 backdrop-blur-lg rounded-2xl flex items-center justify-center text-2xl font-black text-white border border-white/20 shadow-xl hover:bg-white/20 transition-all cursor-default text-center leading-tight">JAF<br><span class="text-sm font-medium text-gray-300">(일본)</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Areas Section (Newly Added) -->
+    <section id="business" class="py-24 bg-business-pattern bg-cover bg-center bg-fixed relative border-t border-gray-800">
+        <div class="absolute inset-0 dark-overlay-gradient z-0"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-16">
+                <span class="inline-block bg-kaa-neon/20 text-kaa-neon px-4 py-1.5 rounded-full font-bold tracking-wider text-sm mb-4 border border-kaa-neon/30 backdrop-blur-md">BUSINESS AREAS</span>
+                <h2 class="text-3xl md:text-5xl font-bold mb-6 text-white drop-shadow-lg">KAA 5대 핵심 사업 영역</h2>
+                <p class="text-gray-300 text-lg drop-shadow-md">수익성 확보와 공익적 가치를 결합한 모빌리티 생태계를 구축합니다.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- 1. 플랫폼 사업부 -->
+                <div class="bg-black/40 backdrop-blur-lg p-8 rounded-3xl border border-gray-700 hover:border-kaa-neon transition-all group shadow-xl hover:-translate-y-2">
+                    <div class="w-14 h-14 bg-gray-800/80 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-kaa-neon transition-colors border border-gray-600 group-hover:border-kaa-neon shadow-inner">
+                        <i class="fa-solid fa-mobile-screen text-2xl text-gray-400 group-hover:text-gray-900 transition-colors"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-white">플랫폼 사업부</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">K-플랫폼 앱 기반의 통합 멤버십 운영 및 전 세계 146개국 O2O 제휴 할인 등 글로벌 모빌리티 서비스 연동</p>
+                </div>
+                
+                <!-- 2. 인슈런스 사업 -->
+                <div class="bg-black/40 backdrop-blur-lg p-8 rounded-3xl border border-gray-700 hover:border-kaa-neon transition-all group shadow-xl hover:-translate-y-2">
+                    <div class="w-14 h-14 bg-gray-800/80 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-kaa-neon transition-colors border border-gray-600 group-hover:border-kaa-neon shadow-inner">
+                        <i class="fa-solid fa-shield-halved text-2xl text-gray-400 group-hover:text-gray-900 transition-colors"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-white">인슈런스 사업</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">운전자 맞춤형 보험, 여행자 보험 및 글로벌 표준화된 긴급로드서비스(ERS)망을 통한 확실한 보호 제공</p>
+                </div>
+                
+                <!-- 3. 모빌리티 사업 -->
+                <div class="bg-black/40 backdrop-blur-lg p-8 rounded-3xl border border-gray-700 hover:border-kaa-neon transition-all group shadow-xl hover:-translate-y-2">
+                    <div class="w-14 h-14 bg-gray-800/80 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-kaa-neon transition-colors border border-gray-600 group-hover:border-kaa-neon shadow-inner">
+                        <i class="fa-solid fa-car text-2xl text-gray-400 group-hover:text-gray-900 transition-colors"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-white">모빌리티 사업</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">렌터카 비즈니스를 포함하여 승용, 특수차량, 이륜차 등 전 세그먼트를 아우르는 모빌리티 유통망 구축</p>
+                </div>
+                
+                <!-- 4. KAA-평가사업 -->
+                <div class="bg-black/40 backdrop-blur-lg p-8 rounded-3xl border border-gray-700 hover:border-kaa-neon transition-all group shadow-xl hover:-translate-y-2 lg:col-start-1 lg:col-span-1 md:col-span-1">
+                    <div class="w-14 h-14 bg-gray-800/80 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-kaa-neon transition-colors border border-gray-600 group-hover:border-kaa-neon shadow-inner">
+                        <i class="fa-solid fa-clipboard-check text-2xl text-gray-400 group-hover:text-gray-900 transition-colors"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-white">KAA-평가사업</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">전문위원회 및 자동차전문평가사를 통한 객관적인 부품, 용품, 중고차 품질 등급 평가 및 공인 인증 부여</p>
+                </div>
+                
+                <!-- 5. KAA-교육사업 -->
+                <div class="bg-black/40 backdrop-blur-lg p-8 rounded-3xl border border-gray-700 hover:border-kaa-neon transition-all group shadow-xl hover:-translate-y-2 lg:col-span-2 md:col-span-1">
+                    <div class="w-14 h-14 bg-gray-800/80 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-kaa-neon transition-colors border border-gray-600 group-hover:border-kaa-neon shadow-inner">
+                        <i class="fa-solid fa-chalkboard-user text-2xl text-gray-400 group-hover:text-gray-900 transition-colors"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-white">KAA-교육사업</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">자격기본법에 의거한 자동차전문평가사, 교통안전지도사 자격시험 주관 및 KAA 중앙교육원 운영을 통한 미래 전문가 양성</p>
+                </div>
             </div>
         </div>
     </section>
